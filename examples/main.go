@@ -7,9 +7,9 @@ import (
 )
 
 func main() {
-	seq1 := "GATTACA"
-	seq2 := "GCATGCU"
-	match := 1
+	seq1 := "AGACTAGTTACCGTAGGCTCGAGTCGGATCGGATCGGATCGGATCAA"
+	seq2 := "CGAGACGTGACCTTAGGCTCGAGTCGGATCGGATCGGATCGGA"
+	match := 2
 	mismatch := -1
 	gap := -2
 
